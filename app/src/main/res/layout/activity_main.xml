@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yusufali_18"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/behzod_madaminov"/>
+
+    <TextView
+        android:id="@+id/tv_ball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#7A7C7E"
+        android:text="@string/ballaringiz"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E1CC43"
+        android:padding="10dp"
+        android:text="@string/_15_5"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/edt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E8E5ED"
+        android:gravity="center"
+        android:hint="@string/javob_yozamiz"
+        android:inputType="number"
+        android:textSize="25sp"
+        android:autofillHints="name" />
+
+
+</LinearLayout>
